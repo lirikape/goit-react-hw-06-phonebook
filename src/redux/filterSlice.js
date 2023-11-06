@@ -11,11 +11,11 @@ const filterSlice = createSlice({
         state.inputValue = action.payload;
       },
 
-      prepare: inputValue => {
-        return {
-          payload: inputValue,
-        };
-      },
+      // prepare: inputValue => {
+      //   return {
+      //     payload: inputValue,
+      //   };
+      // },
     },
   },
 });
